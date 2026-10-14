@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
@@ -27,7 +26,7 @@ const itemVariants: Variants = {
   },
 };
 
-export default function Footer() {
+export default function Footer() { 
   return (
     <footer className="w-full text-neutral-900 py-15 border-t border-neutral-100 overflow-hidden">
       <motion.div
@@ -126,7 +125,7 @@ export default function Footer() {
           className="pt-8 mt-4 border-t border-neutral-100 text-xs text-neutral-500 text-center"
         >
           <p>
-            &copy; {new Date().getFullYear()} Digest Media. All rights reserved.
+            &copy; 2026 Digest Media. All rights reserved.
           </p>
         </motion.div>
       </motion.div>
